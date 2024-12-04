@@ -7,6 +7,6 @@ terraform {
          bucket = "statefile12345"
         #dynamodb_table = "terraform-state-lock-dynamo"
         key    = "terraform.tfstate"
-        region = "us-east-1"
+        region = "ap-south-1"
       }
     }
