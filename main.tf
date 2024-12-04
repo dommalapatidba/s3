@@ -4,7 +4,7 @@ resource "aws_s3_bucket"  "name" {
 terraform {
       backend "s3" {
         encrypt = true    
-         bucket = "statefile12345"
+         bucket = "rds1234123"
         #dynamodb_table = "terraform-state-lock-dynamo"
         key    = "terraform.tfstate"
         region = "ap-south-1"
