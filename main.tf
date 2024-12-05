@@ -1,5 +1,5 @@
 resource "aws_s3_bucket"  "name" {
-     bucket = "rds1234123"
+     bucket = "rds123412345"
 }
 #terraform {
       #backend "s3" {
